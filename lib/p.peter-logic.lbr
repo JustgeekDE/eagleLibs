@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1653,7 +1653,9 @@
 <connect gate="_PWR" pin="VCC" pad="OUT3"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="COMPLEX" value="AND-LONG" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="-UNBUF" package="AND-2-UNBUF">
@@ -1665,7 +1667,9 @@
 <connect gate="_PWR" pin="VCC" pad="OUT3"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="COMPLEX" value="AND-UNBUFFERED" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
